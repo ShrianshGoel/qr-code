@@ -1,0 +1,116 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+.cw{
+  background-image:url("Screenshot_2021-10-11_1.54.06_PM-removebg-preview.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+   border: 2px solid White;
+}
+.buttn{
+  height:70px;
+  width:260px;
+  background-color:orange;
+  color:Purple;
+    font-family:volkron;
+    border-radius:222px;
+  border: 4px solid White;
+   font-size:24px;
+
+}
+.h{
+  height:70px;
+  width:260px;
+  
+  background-image:url("hello.gif");
+  color:Cyan;
+    font-family:volkron;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:1px;
+
+   font-size:54px;
+
+}
+.h2{
+
+  
+  background-image:url("https://shrianshgoel.github.io/stunning-octo-bassoon/giphy.gif");
+  color:Purple;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family:volkron;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:22px;
+color:orange;
+   font-size:24px;
+
+}
+.buttn:hover {opacity: 0.7}
+.buttn2{
+
+  background-color:blue;
+  color:White;
+  text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family:volkron;
+    border-radius:222px;
+  border: 4px solid Black;
+   font-size:24px;
+
+}
+.buttn2:hover {opacity: 0.7}
+.buttn3{
+ 
+  background-color:blue;
+  color:White;
+  text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family:volkron;
+    border-radius:222px;
+  border: 4px solid Black;
+   font-size:24px;
+
+}
+.buttn3:hover {opacity: 0.7}
+.o{
+  padding:20px;
+
+  border-radius:230px;
+
+  color:white;
+        background-color:black;
+         border: 5px solid white;
+     font-size:24px;
+}
+.o2{
+  padding:20px;
+    height:250px;
+  border-radius:20px;
+      width:250px;
+        background-color:transparent;
+         border: 5px solid white;
+}
+.buttn4{
+  
+ 
+  background-color:black;
+  background-size:cover;
+  color:White;
+  text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-family:volkron;
+    border-radius:222px;
+  border: 4px solid Black;
+   font-size:24px;
+}
