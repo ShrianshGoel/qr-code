@@ -1,5 +1,5 @@
 var button,b1,b2
-
+var poskjp=0
 var input,i2,b6
 var b3,b4,b5,b3x
 var c,c1
@@ -72,7 +72,7 @@ function draw() {
   b5.class("buttn3")
   b5.position(width/8.90,height/1.12)
      b5.size(width/5.10,width/27)
-
+poskjp=1
   }
 
   
@@ -82,6 +82,7 @@ function draw() {
 }
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
+  if(poskjp===0){
     input.position(width/2.70,height/2)
    input.size(width/6,height/10.60)
     button.size(width/5.10,width/18.50); button.position(width/2.70,height/1.50)
@@ -91,4 +92,19 @@ function windowResized() {
   b3.size(width/07,width/13)
   b3x.position(0,0)
   b3x.size(windowWidth,windowHeight)
+  }
+  if(poskjp===1){
+        input.position(width/2.70,height/2)
+   input.size(width/6,height/10.60)
+    button.size(width/5.10,width/18.50); button.position(width/2.70,height/1.50)
+    b2.position(width/8.20,height/2.50)
+  b2.size(width/5.70,width/18.50)
+    b3.position(width/1.50,height/2)
+  b3.size(width/07,width/13)
+  b3x.position(0,0)
+  b3x.size(windowWidth,windowHeight)
+      b5.position(width/8.90,height/1.12)
+     b5.size(width/5.10,width/27)
+     i2.position(width/9,height/2);
+  }
 }
